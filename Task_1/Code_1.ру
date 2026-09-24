@@ -1,0 +1,14 @@
+import math
+
+
+# task 1 (number 4)
+a = float(input("enter a: "))
+b = float(input("enter b: "))
+x = float(input("enter x: "))
+
+if abs(a ** 2 - b ** 2) > b:
+    y = a ** (x / 2) - math.exp(math.cos(x))
+else:
+    y = math.tan(4 * x) - a
+
+print(f"result y = {y}")

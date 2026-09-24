@@ -1,0 +1,31 @@
+# task 2
+
+current_year = int(input("Enter current year: "))
+
+cycle_year = (current_year - 1996) % 12
+
+match cycle_year:
+    case 0:
+        print("Rat")
+    case 1:
+        print("Cow")
+    case 2:
+        print("Tiger")
+    case 3:
+        print("Hare")
+    case 4:
+        print("Dragon")
+    case 5:
+        print("Snake")
+    case 6:
+        print("Horse")
+    case 7:
+        print("Sheep")
+    case 8:
+        print("Monkey")
+    case 9:
+        print("Rooster")
+    case 10:
+        print("Dog")
+    case 11:
+        print("Pig")

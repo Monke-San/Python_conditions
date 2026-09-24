@@ -1,0 +1,7 @@
+# task 3(number 4)
+
+x = float(input("x: "))
+y = float(input("y: "))
+
+Inside = abs(x) + abs(y) <= 1
+print(Inside)
